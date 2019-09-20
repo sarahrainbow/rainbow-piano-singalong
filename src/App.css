@@ -7,16 +7,52 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #F7F7FF;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  background-image: url('./images/placeholderHomeBackground.jpg');
+  background-size: cover;
 }
 
 .App-link {
   color: #09d3ac;
+}
+
+.header {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  background:white;
+  padding-top: 16px;
+  color:steelblue;
+  background-image: url('./images/colourCorner.png');
+  background-size: cover;
+  font-family: 'Concert One', cursive;
+}
+
+.textarea {
+  color:rgb(99, 108, 116);
+  padding: 16px;
+  background: white;
+  opacity: 0.9;
+}
+
+.quote {
+  color: grey;
+  background: white;
+  opacity: 0.9;
+}
+
+h1 {
+  font-size: 3.5rem;
+  text-align: left;
+  padding-left: 16px;
+}
+
+.h1 {
+  font-size: 3.5rem;
 }
