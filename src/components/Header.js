@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav'; 
-import RainbowIcon from './images/rainbowIcon.png';
+import RainbowIcon from '../images/rainbowIcon.png';
 
 class Header extends Component {
     render() {
