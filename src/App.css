@@ -7,15 +7,14 @@
 }
 
 .App-header {
-  background-color: rgb(246, 195, 41, 0.72);
-  min-height: 100vh;
+  min-height: 150px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   /* background-image: url('./images/placeholderHomeBackground.jpg'); */
-  background-size: cover;
+  /* background-size: cover; */
 }
 
 .App-link {
@@ -23,8 +22,9 @@
 }
 
 .header {
+  min-height: 150px;
   width: 100%;
-  position: absolute;
+  position: fixed;
   top: 0;
   background:white;
   padding-top: 16px;
@@ -32,32 +32,53 @@
   background-image: url('./images/colourCorner.png');
   background-size: cover;
   font-family: 'Concert One', cursive;
-  scroll-padding-top: 50px;
-}
-
-body {
-  background: red;
+  z-index: 5;
 }
 
 .textarea {
-  color:rgb(99, 108, 116);
+  color: white;
   padding: 16px;
-  background: white;
-  opacity: 0.9;
-}
-
-.quote {
-  color: grey;
-  background: white;
-  opacity: 0.9;
 }
 
 h1 {
   font-size: 3.5rem;
-  text-align: left;
-  padding-left: 16px;
 }
 
-.h1 {
-  font-size: 3.5rem;
+body {
+    padding-top: 77px;
+}
+
+#Home {
+  background-color: rgb(246, 195, 41, 0.72);
+}
+
+#About {
+  background-color:#f84a4a;
+}
+
+#Pricing {
+  background-color: #8dda6c;
+}
+
+#Contact {
+  background-color: #4ba0d5
+}
+
+.section {
+  min-height: 300px;
+  text-align: center;
+}
+
+/* .container img {
+  vertical-align: middle;
+} */
+
+.quote {
+  background-color: #b5e3ff;
+}
+
+.quote p {
+  color: black;
+  font-size: 1.5em;
+  padding: 10px;
 }

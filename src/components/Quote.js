@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import quoteOpenIcon from '../images/quoteOpen.png';
+import quoteCloseIcon from '../images/quoteClose.png';
 
 class Quote extends Component {
     constructor(props){
@@ -10,10 +12,11 @@ class Quote extends Component {
 
     render() {
         return(
-            <div class="quote">
-                <p>{this.state.value}</p>
+            <div className="quote badge">
+                    <img src={quoteOpenIcon} height="30px"/>
+                    <p>{this.state.value}</p>
             </div>
-
+            
         );
     }
 }

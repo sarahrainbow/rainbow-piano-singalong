@@ -5,9 +5,9 @@ import Quote from '../Quote';
 class Contact extends Component {
     render(){
         return(
-            <div>
-                <h1>mark@thegreatrainbowpianosingalong.com</h1>       
-                <Quote><i>‘There is nothing better in this world’</i></Quote>
+            <div id="Contact" className="section container-fluid">
+                <TextArea>mark@thegreatrainbowpianosingalong.com</TextArea> 
+                <Quote><i>There is nothing better in this world</i></Quote>
             </div>
         );
     }
