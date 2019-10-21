@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Navbar from 'react-bootstrap/Navbar';
 
 class TextArea extends Component {
     constructor(props) {
@@ -12,7 +11,7 @@ class TextArea extends Component {
     render() {
         return (
             <div className="textarea">
-                <p> {this.state.value} </p>
+                {this.state.value}
             </div>
         );
     }

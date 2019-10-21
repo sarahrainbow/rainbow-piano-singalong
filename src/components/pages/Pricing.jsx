@@ -5,9 +5,11 @@ import Quote from '../Quote';
 class Pricing extends Component {
     render(){
         return(
-            <div>
-                <h1>£1500</h1>       
-                <Quote><i>‘Turns out some things really are priceless’</i></Quote>
+            <div className="section container-fluid" id="Pricing">
+                <TextArea>
+                    £1500
+                </TextArea>      
+                <Quote><i>‘Worth every penny and so much more’</i></Quote>
             </div>
         );
     }

@@ -5,7 +5,10 @@ import Quote from '../Quote';
 class About extends Component {
     render(){
         return(
-            <div>
+            <div id="About" className="section container-fluid">
+                              <br/>
+                    <br/>
+                    <br/>
                 <TextArea>
                     <p>The human jukebox Mark Rainbow will bring harmony in every concievable way. </p>
                             
