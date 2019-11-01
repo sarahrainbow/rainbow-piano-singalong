@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import TextArea from '../TextArea';
 import Quote from '../Quote';
-import { Element, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+import { Element } from 'react-scroll'
 
 class Pricing extends Component {
     render(){

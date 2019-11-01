@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import quoteOpenIcon from '../images/quoteOpen.png';
-import quoteCloseIcon from '../images/quoteClose.png';
 
 class Quote extends Component {
     constructor(props){

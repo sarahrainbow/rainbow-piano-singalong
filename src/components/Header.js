@@ -1,18 +1,18 @@
 import React, { Component } from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav'; 
-// import RainbowIcon from '../images/rainbowIcon.png';
-import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+import RainbowLogo from '../images/header.png';
+import { Link } from 'react-scroll'
 
 class Header extends Component {
     render() {
-        const red = {color:'#f84a4a'};
-        const yellow = {color:'#f6c329'};
-        const green = {color: '#74d44c'};
-        const blue = {color: '#4ba0d5'};
+        // const red = {color:'#f84a4a'};
+        // const yellow = {color:'#f6c329'};
+        // const green = {color: '#74d44c'};
+        // const blue = {color: '#4ba0d5'};
         return (
                 <Navbar bg="light" expand="lg" sticky="top">
-                    <Navbar.Brand href="#home"><span style={red}>Great</span> <span style={yellow}>Rainbow</span> <span style={green}>Piano</span> <span style={blue}>Singalong</span></Navbar.Brand>
+                    <Navbar.Brand><img src={RainbowLogo} height="62" /></Navbar.Brand>
 
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">

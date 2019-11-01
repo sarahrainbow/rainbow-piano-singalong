@@ -33,18 +33,33 @@ html, #root, body, .App, .App>div {
   background:white;
   padding-top: 16px;
   color:steelblue;
-  background-image: url('./images/colourCorner.png');
+  background-image: url('./images/header.png');
   background-size: cover;
-  font-family: 'Concert One', cursive;
+  /* font-family: 'Concert One', cursive; */
+  font-family: 'Open Sans', sans-serif;
   z-index: 5;
 }
 
 .navbar {
-  font-family: 'Concert One', cursive;
+  font-size: 0.75em;
+}
+
+a p {
+  font-family: 'Open Sans', sans-serif;
 }
 
 .navbar a {
-  padding: 16px;
+  padding: 0 16px;
+  padding-bottom: 5px;
+  color: #5F4813;
+}
+
+a {
+  cursor: pointer;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light.sticky-top {
+  align-items: flex-end;
 }
 
 .textarea {
@@ -58,6 +73,12 @@ h1 {
 
 #Home {
   background-color: rgb(246, 195, 41, 0.72);
+}
+
+.center {
+  margin: auto;
+  width: 60%;
+  padding: 10px;
 }
 
 #About {
@@ -82,9 +103,10 @@ h1 {
 } */
 
 .quote {
-  background-color: #b5e3ff;
+  background-color: bisque;
   font-weight: 100;
-
+  width: 50%;
+  margin-left: 25%;
 }
 
 .quote p {
