@@ -21,10 +21,14 @@
   color: #09d3ac;
 }
 
+html, #root, body, .App, .App>div {
+  height: 98%
+}
+
 .header {
-  min-height: 150px;
+  min-height: 100px;
   width: 100%;
-  position: fixed;
+  position: relative;
   top: 0;
   background:white;
   padding-top: 16px;
@@ -35,6 +39,14 @@
   z-index: 5;
 }
 
+.navbar {
+  font-family: 'Concert One', cursive;
+}
+
+.navbar a {
+  padding: 16px;
+}
+
 .textarea {
   color: white;
   padding: 16px;
@@ -42,10 +54,6 @@
 
 h1 {
   font-size: 3.5rem;
-}
-
-body {
-    padding-top: 77px;
 }
 
 #Home {
@@ -65,7 +73,7 @@ body {
 }
 
 .section {
-  min-height: 300px;
+  /* min-height: 300px; */
   text-align: center;
 }
 
@@ -75,10 +83,23 @@ body {
 
 .quote {
   background-color: #b5e3ff;
+  font-weight: 100;
+
 }
 
 .quote p {
   color: black;
-  font-size: 1.5em;
+  font-size: 1em;
+  font-weight: 100;
   padding: 10px;
+}
+
+.container-fluid {
+  display: inline-grid;
+  align-items: center;
+}
+
+p {
+  font-size: small;
+  font-weight: 100;
 }

@@ -7,18 +7,17 @@ import About from './components/pages/About';
 import Pricing from './components/pages/Pricing'
 import Contact from './components/pages/Contact'
 
+
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
         <Header/>
-        <body>
           <Home/>
           <About/>    
           <Pricing/>
           <Contact/>
-        </body>
       </div>
   );
 }

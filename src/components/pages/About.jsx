@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import TextArea from '../TextArea';
 import Quote from '../Quote';
+import { Element, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 
 class About extends Component {
     render(){
         return(
-            <div id="About" className="section container-fluid">
+            <Element name="about" id="About" className="section container-fluid">
                               <br/>
                     <br/>
                     <br/>
@@ -17,9 +18,9 @@ class About extends Component {
                     <p>Because why sing alone when you can <b>singalong?</b></p>
                 </TextArea>
                 <br/>
-                <Quote><i>‘The feeling of us all singing together was so moving I actually cried’</i></Quote>
+                <Quote>The feeling of us all singing together was so moving I actually cried</Quote>
                 <br/>
-            </div>
+            </Element>
         );
     }
 }
