@@ -12,7 +12,7 @@ class Header extends Component {
         // const blue = {color: '#4ba0d5'};
         return (
                 <Navbar bg="light" expand="lg" sticky="top">
-                    <Navbar.Brand><img src={RainbowLogo} height="62" /></Navbar.Brand>
+                    <Navbar.Brand><img alt='rainbow logo' src={RainbowLogo} height="62" /></Navbar.Brand>
 
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">

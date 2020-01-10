@@ -46,6 +46,7 @@ html, #root, body, .App, .App>div {
 
 a p {
   font-family: 'Open Sans', sans-serif;
+  color: black;
 }
 
 .navbar a {
@@ -63,7 +64,6 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.sticky-top {
 }
 
 .textarea {
-  color: white;
   padding: 16px;
 }
 
@@ -72,7 +72,7 @@ h1 {
 }
 
 #Home {
-  background-color: rgb(246, 195, 41, 0.72);
+  background-color: #f2d2d5;
 }
 
 .center {
@@ -82,15 +82,15 @@ h1 {
 }
 
 #About {
-  background-color:#f84a4a;
+  background-color:#cceffc;
 }
 
 #Pricing {
-  background-color: #8dda6c;
+  background-color: #cbecdb;
 }
 
 #Contact {
-  background-color: #4ba0d5
+  background-color: #fdd4e6
 }
 
 .section {
@@ -98,22 +98,38 @@ h1 {
   text-align: center;
 }
 
-/* .container img {
-  vertical-align: middle;
-} */
-
 .quote {
-  background-color: bisque;
+  background-color: whitesmoke;
   font-weight: 100;
   width: 50%;
   margin-left: 25%;
 }
 
-.quote p {
+.quoteBubble {
+  position: relative;
+  text-align: center;
+}
+
+.bubble {
+  width: 50%;
+}
+
+.quoteBubble p {
   color: black;
   font-size: 1em;
   font-weight: 100;
   padding: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.quoteMark {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .container-fluid {

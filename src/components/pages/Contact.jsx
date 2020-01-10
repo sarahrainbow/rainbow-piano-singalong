@@ -8,7 +8,7 @@ class Contact extends Component {
         return(
             <Element name="contact" id="Contact" className="section container-fluid">
                 <TextArea>mark@thegreatrainbowpianosingalong.com</TextArea> 
-                <Quote><i>There is nothing better in this world</i></Quote>
+                <Quote>I didn't realise I was alive before now</Quote>
             </Element>
         );
     }

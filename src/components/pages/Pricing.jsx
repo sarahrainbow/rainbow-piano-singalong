@@ -10,7 +10,7 @@ class Pricing extends Component {
                 <TextArea>
                     £1500
                 </TextArea>      
-                <Quote><i>‘Worth every penny and so much more’</i></Quote>
+                <Quote>Worth every penny and so much more</Quote>
             </Element>
         );
     }
