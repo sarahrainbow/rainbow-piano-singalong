@@ -141,3 +141,25 @@ p {
   font-size: small;
   font-weight: 100;
 }
+
+.title {
+  width: 100%;
+  padding: 0px 100px 0px 100px;
+}
+
+#contactEmail {
+  font-weight: 100;
+  font-size: 1.5em;
+}
+
+#mailIcon {
+  width: 25px;
+  margin-right: 8px;
+  margin-bottom: 4px;
+}
+
+@media only screen and (max-width: 530px) {
+  #contactEmail {
+    font-size: 1em;
+  }
+}

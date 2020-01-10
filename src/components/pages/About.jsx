@@ -2,14 +2,14 @@ import React, { Component } from 'react';
 import TextArea from '../TextArea';
 import Quote from '../Quote';
 import { Element } from 'react-scroll'
+import TitleAbout from '../../images/TitleAbout.png'
 
 class About extends Component {
     render(){
         return(
             <Element name="about" id="About" className="section container-fluid">
-                              <br/>
-                    <br/>
-                    <br/>
+                <br />
+                    <img src={TitleAbout} className="title" alt="Title for about section"/>
                 <TextArea>
                     <p>The human jukebox Mark Rainbow will bring harmony in every concievable way. </p>
                             
@@ -18,7 +18,7 @@ class About extends Component {
                     <p>Because why sing alone when you can <b>singalong?</b></p>
                 </TextArea>
                 <br/>
-                <Quote>The feeling of us all singing together was so moving I actually cried</Quote>
+                <Quote>I cried with joy!</Quote>
                 <br/>
             </Element>
         );
