@@ -11,7 +11,7 @@ class Contact extends Component {
             <Element name="contact" id="Contact" className="section container-fluid">
                 <img src={TitleContact} className="title" alt="Title for contact section" />
                 <TextArea><img src={mailIcon} id="mailIcon" alt="mail icon"/><span id='contactEmail'>mark@thegreatrainbowpianosingalong.com</span></TextArea> 
-                <Quote>I didn't realise I was alive before now</Quote>
+                <Quote>I didn’t realise I was alive before now</Quote>
             </Element>
         );
     }

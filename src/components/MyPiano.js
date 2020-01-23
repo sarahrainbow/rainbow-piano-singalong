@@ -13,11 +13,11 @@ const noteRange = {
   first: MidiNumbers.fromNote('c3'),
   last: MidiNumbers.fromNote('f4'),
 };
-// const keyboardShortcuts = KeyboardShortcuts.create({
-//   firstNote: noteRange.first,
-//   lastNote: noteRange.last,
-//   keyboardConfig: KeyboardShortcuts.HOME_ROW,
-// });
+const keyboardShortcuts = KeyboardShortcuts.create({
+  firstNote: noteRange.first,
+  lastNote: noteRange.last,
+  keyboardConfig: KeyboardShortcuts.HOME_ROW,
+});
 
 function MyPiano() {
   return (
@@ -40,7 +40,7 @@ function BasicPiano() {
           playNote={playNote}
           stopNote={stopNote}
           disabled={isLoading}
-          // keyboardShortcuts={keyboardShortcuts}
+          keyboardShortcuts={keyboardShortcuts}
         />
       )}
     />

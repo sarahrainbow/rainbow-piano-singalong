@@ -111,7 +111,8 @@ h1 {
 }
 
 .bubble {
-  width: 50%;
+  height: 150px;  
+  width: 300px;
 }
 
 .quoteBubble p {
@@ -143,8 +144,10 @@ p {
 }
 
 .title {
-  width: 100%;
-  padding: 0px 100px 0px 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
 }
 
 #contactEmail {
@@ -161,5 +164,8 @@ p {
 @media only screen and (max-width: 530px) {
   #contactEmail {
     font-size: 1em;
+  }
+  .bubble {
+    width: 50%;
   }
 }
