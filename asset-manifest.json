@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/rainbow-piano-singalong/static/css/main.68b52a80.chunk.css",
-    "main.js": "/rainbow-piano-singalong/static/js/main.886c9d31.chunk.js",
-    "main.js.map": "/rainbow-piano-singalong/static/js/main.886c9d31.chunk.js.map",
-    "runtime-main.js": "/rainbow-piano-singalong/static/js/runtime-main.091138e8.js",
-    "runtime-main.js.map": "/rainbow-piano-singalong/static/js/runtime-main.091138e8.js.map",
-    "static/css/2.7e31b649.chunk.css": "/rainbow-piano-singalong/static/css/2.7e31b649.chunk.css",
-    "static/js/2.242262ed.chunk.js": "/rainbow-piano-singalong/static/js/2.242262ed.chunk.js",
-    "static/js/2.242262ed.chunk.js.map": "/rainbow-piano-singalong/static/js/2.242262ed.chunk.js.map",
-    "index.html": "/rainbow-piano-singalong/index.html",
-    "precache-manifest.37c8ed738c0734a07d9a4c275cdd08c8.js": "/rainbow-piano-singalong/precache-manifest.37c8ed738c0734a07d9a4c275cdd08c8.js",
-    "service-worker.js": "/rainbow-piano-singalong/service-worker.js",
-    "static/css/2.7e31b649.chunk.css.map": "/rainbow-piano-singalong/static/css/2.7e31b649.chunk.css.map",
-    "static/css/main.68b52a80.chunk.css.map": "/rainbow-piano-singalong/static/css/main.68b52a80.chunk.css.map",
-    "static/js/2.242262ed.chunk.js.LICENSE": "/rainbow-piano-singalong/static/js/2.242262ed.chunk.js.LICENSE",
-    "static/media/TitleAbout.png": "/rainbow-piano-singalong/static/media/TitleAbout.208a95f5.png",
-    "static/media/TitleContact.png": "/rainbow-piano-singalong/static/media/TitleContact.8bf32dff.png",
-    "static/media/TitlePricing.png": "/rainbow-piano-singalong/static/media/TitlePricing.fb5d9e39.png"
+    "main.css": "/rainbow-piano-singalong/index.html/static/css/main.68b52a80.chunk.css",
+    "main.js": "/rainbow-piano-singalong/index.html/static/js/main.f6f44076.chunk.js",
+    "main.js.map": "/rainbow-piano-singalong/index.html/static/js/main.f6f44076.chunk.js.map",
+    "runtime-main.js": "/rainbow-piano-singalong/index.html/static/js/runtime-main.d7bb5f20.js",
+    "runtime-main.js.map": "/rainbow-piano-singalong/index.html/static/js/runtime-main.d7bb5f20.js.map",
+    "static/css/2.7e31b649.chunk.css": "/rainbow-piano-singalong/index.html/static/css/2.7e31b649.chunk.css",
+    "static/js/2.242262ed.chunk.js": "/rainbow-piano-singalong/index.html/static/js/2.242262ed.chunk.js",
+    "static/js/2.242262ed.chunk.js.map": "/rainbow-piano-singalong/index.html/static/js/2.242262ed.chunk.js.map",
+    "index.html": "/rainbow-piano-singalong/index.html/index.html",
+    "precache-manifest.f345aac816c8287fa56f7893504db1ea.js": "/rainbow-piano-singalong/index.html/precache-manifest.f345aac816c8287fa56f7893504db1ea.js",
+    "service-worker.js": "/rainbow-piano-singalong/index.html/service-worker.js",
+    "static/css/2.7e31b649.chunk.css.map": "/rainbow-piano-singalong/index.html/static/css/2.7e31b649.chunk.css.map",
+    "static/css/main.68b52a80.chunk.css.map": "/rainbow-piano-singalong/index.html/static/css/main.68b52a80.chunk.css.map",
+    "static/js/2.242262ed.chunk.js.LICENSE": "/rainbow-piano-singalong/index.html/static/js/2.242262ed.chunk.js.LICENSE",
+    "static/media/TitleAbout.png": "/rainbow-piano-singalong/index.html/static/media/TitleAbout.208a95f5.png",
+    "static/media/TitleContact.png": "/rainbow-piano-singalong/index.html/static/media/TitleContact.8bf32dff.png",
+    "static/media/TitlePricing.png": "/rainbow-piano-singalong/index.html/static/media/TitlePricing.fb5d9e39.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.091138e8.js",
+    "static/js/runtime-main.d7bb5f20.js",
     "static/css/2.7e31b649.chunk.css",
     "static/js/2.242262ed.chunk.js",
     "static/css/main.68b52a80.chunk.css",
-    "static/js/main.886c9d31.chunk.js"
+    "static/js/main.f6f44076.chunk.js"
   ]
 }
