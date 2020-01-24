@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9a9dcae54ea4c80ab5fce579429bc856",
+    "revision": "720f9ba5fa2a55940419d2269e623d6d",
     "url": "/rainbow-piano-singalong/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/rainbow-piano-singalong/static/css/2.7e31b649.chunk.css"
   },
   {
-    "revision": "f1ed8a1cb45f2c88b52f",
-    "url": "/rainbow-piano-singalong/static/css/main.68b52a80.chunk.css"
+    "revision": "d6ead1fa2fa5c8bd9a53",
+    "url": "/rainbow-piano-singalong/static/css/main.127cfdf2.chunk.css"
   },
   {
     "revision": "d89574cfb2df0918fc77",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/rainbow-piano-singalong/static/js/2.242262ed.chunk.js.LICENSE"
   },
   {
-    "revision": "f1ed8a1cb45f2c88b52f",
+    "revision": "d6ead1fa2fa5c8bd9a53",
     "url": "/rainbow-piano-singalong/static/js/main.886c9d31.chunk.js"
   },
   {
