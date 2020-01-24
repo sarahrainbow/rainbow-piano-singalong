@@ -16,9 +16,7 @@
     background: #0396ca;
   }
 
-  .ReactPiano__Keyboard {
-    height: 200px;
-  }
+
   
   .ReactPiano__Key--active.ReactPiano__Key--accidental {
     background: #0396ca;

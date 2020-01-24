@@ -169,3 +169,19 @@ p {
     width: 50%;
   }
 }
+
+.ReactPiano__Keyboard {
+  height: 300px;
+}
+
+@media only screen and (max-width: 800px) {
+.ReactPiano__Keyboard {
+  height: 200px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .ReactPiano__Keyboard {
+    height: 400px;
+    }
+  }
