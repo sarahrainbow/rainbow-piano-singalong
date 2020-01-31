@@ -4,7 +4,7 @@ import Header from './components/Header';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './components/pages/Home';
 import About from './components/pages/About';
-import Pricing from './components/pages/Pricing'
+import Work from './components/pages/Work'
 import Contact from './components/pages/Contact'
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
         <Header/>
           <Home/>
           <About/>    
-          <Pricing/>
+          <Work/>
           <Contact/>
       </div>
   );
