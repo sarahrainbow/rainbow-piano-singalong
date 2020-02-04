@@ -13,8 +13,6 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  /* background-image: url('./images/placeholderHomeBackground.jpg'); */
-  /* background-size: cover; */
 }
 
 .App-link {
@@ -71,8 +69,10 @@ h1 {
   font-size: 3.5rem;
 }
 
-#Home {
-  background-color: #f2d2d5;
+#Home img {
+  position: fixed;
+  width: 100%;
+  z-index: -1;
 }
 
 .center {
@@ -82,15 +82,20 @@ h1 {
 }
 
 #About {
-  background-color:#cceffc;
+  background-color:#f8f9fa;
 }
 
-#Pricing {
-  background-color: #cbecdb;
+#Work {
+  background-color: #f0e7de;
+}
+
+#Gallery {
+  background-color: whitesmoke;
+  height: auto;
 }
 
 #Contact {
-  background-color: #fdd4e6
+  background-color:#d4f2fd
 }
 
 .section {
@@ -163,41 +168,51 @@ p {
   margin-bottom: 4px;
 }
 
-#musicalTypingSwitch {
-  text-align: left;
-}
-#musicalTypingSwitch span {
-  padding: 16px;
-}
-
-@media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-  div.container-fluid {
-    height: auto;
+@media only screen and (min-width: 768X) {
+  #Home img {
+    width: 150%;
   }
 }
 
-@media only screen and (max-width: 530px) {
-  #contactEmail {
-    font-size: 1em;
-  }
-  .bubble {
-    width: 50%;
-  }
+/* GALLERY PAGE  */
+
+.video-item {
+  margin-top: 0;
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
 }
 
-.ReactPiano__Keyboard {
-  height: 300px;
+
+.video-item iframe, .video-item img {
+right: 0;
+bottom: 0;
+margin-top: 0;
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
 }
 
-@media only screen and (max-width: 800px) {
-.ReactPiano__Keyboard {
-  height: 200px;
+@supports (display: grid) {
+
+  .video-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
   }
-}
 
-@media only screen and (min-width: 1000px) {
-  .ReactPiano__Keyboard {
-    height: 400px;
+  @media(max-width:900px){
+  .video-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  }
+
+  @media(min-width:1500px){
+    .video-grid {
+      grid-template-columns: repeat(3, 1fr);
     }
   }
+}

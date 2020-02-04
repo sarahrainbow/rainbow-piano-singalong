@@ -8,18 +8,10 @@ class About extends Component {
     render(){
         return(
             <Element name="about" id="About" className="section container-fluid">
-                <br />
-                    <img src={TitleAbout} className="title" alt="Title for about section"/>
+                    <h1>About</h1>
                 <TextArea>
-                    <p>The human jukebox Mark Rainbow will bring harmony in every concievable way. </p>
-                            
-                    <p>Whether it be a wild <b>hen do</b>, a spectacular <b>wedding</b>, your mum’s 60th birthday <b>party</b>, your boyfriend’s 30th, or a last ditch attempt to make the office <b>christmas</b> party fun this year, he knows the key to everyone’s hearts.</p>
-                    
-                    <p>Because why sing alone when you can <b>singalong?</b></p>
+                    <p>Kirsty Mangan is basically the best and most talented person in the whole word. Please tremble at her feet in awe.</p>
                 </TextArea>
-                <br/>
-                <Quote>I cried with joy!</Quote>
-                <br/>
             </Element>
         );
     }

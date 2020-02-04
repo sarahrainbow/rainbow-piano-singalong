@@ -8,7 +8,7 @@ class Header extends Component {
     render() {
         return (
                 <Navbar bg="light" expand="lg" sticky="top">
-                    <Navbar.Brand>Kirsty Mouse</Navbar.Brand>
+                    <Navbar.Brand>Kirsty Mangan</Navbar.Brand>
 
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
@@ -16,6 +16,7 @@ class Header extends Component {
                             <Link activeClass="active" to="home" spy={true} smooth={true} duration={500} >Home</   Link>
                             <Link activeClass="active" to="about" spy={true} smooth={true} duration={500} >About</Link>
                             <Link activeClass="active" to="work" spy={true} smooth={true} duration={500}>Work</Link>
+                            <Link activeClass="active" to="gallery" spy={true} smooth={true} duration={500}>Gallery</Link>
                             <Link activeClass="active" to="contact" spy={true} smooth={true} duration={500} >Contact</Link>
                         </Nav>
                     </Navbar.Collapse>
