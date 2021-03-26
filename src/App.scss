@@ -71,9 +71,6 @@ h1 {
   font-size: 3.5rem;
 }
 
-#Home {
-  background-color: #f2d2d5;
-}
 
 .center {
   margin: auto;
@@ -163,13 +160,9 @@ p {
   margin-bottom: 4px;
 }
 
-#musicalTypingSwitch {
-  text-align: left;
-  width: 100px;
-}
+
 
 @media only screen and (max-width: 768px) {
-  /* For mobile phones: */
   div.container-fluid {
     height: auto;
   }
@@ -181,30 +174,5 @@ p {
   }
   .bubble {
     width: 50%;
-  }
-}
-
-.mt-5 {
-  height: 300px;
-}
-
-@media only screen and (max-width: 800px) {
-.mt-5 {
-  height: 200px;
-  }
-}
-
-@media only screen and (min-width: 1000px) {
-  .mt-5 {
-    height: 400px;
-    width: 100%;
-    }
-  }
-
-$colours: red, orange, yellow, green, blue, indigo, violet;
-
-@each $colour in $colours {
-  .ReactPiano__Key--active#note-#{$colour} {
-      background: $colour;
   }
 }

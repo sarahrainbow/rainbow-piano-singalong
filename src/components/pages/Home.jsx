@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Quote from '../Quote';
 import { Element } from 'react-scroll';
 import 'react-piano/dist/styles.css';
+import './home.scss'
 import MyPiano from '../MyPiano.js';
 import Switch from "react-switch";
 
@@ -30,7 +31,7 @@ const Home  = () => {
   return(
     <Element name='home' id="Home" className="container-fluid section">
       <MyPiano musicalTyping={ musicalTyping } />
-        <label id="musicalTypingSwitch">
+        <label className="musicalTypingSwitch">
             <Switch onChange={() => setMusicalTyping(!musicalTyping)} checked={musicalTyping} />
             <p>Musical typing</p>
         </label>
