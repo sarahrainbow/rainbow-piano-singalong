@@ -10,12 +10,18 @@
     /* margin-right: 0; */
   }
   .PianoDarkTheme .ReactPiano__Key--active.ReactPiano__Key--accidental {
-    background: #0396ca;
+    background: #c0ca03;
   }
   .PianoDarkTheme .ReactPiano__Key--active.ReactPiano__Key--natural {
-    background: #0396ca;
+    background: #ca8403;
+
   }
   
-  .ReactPiano__Key--active.ReactPiano__Key--accidental {
+  /* .ReactPiano__Key--active.ReactPiano__Key--accidental {
     background: #0396ca;
+  } */
+
+  .ReactPiano__Key--active {
+    background: #c0ca03;
+
   }

@@ -1,37 +1,42 @@
-import React, { Component } from 'react';
+import React, { useEffect, useState } from 'react';
 import Quote from '../Quote';
 import { Element } from 'react-scroll';
 import 'react-piano/dist/styles.css';
-import MyPiano from '../MyPiano';
+import MyPiano from '../MyPiano.js';
 import Switch from "react-switch";
 
-class Home extends Component {
-    constructor() {
-        super();
-        this.state = { checked: false };
-        this.handleChange = this.handleChange.bind(this);
-      }
+const Home  = () => {
+  const [musicalTyping, setMusicalTyping] = useState(false);
 
-      handleChange(checked) {
-        this.setState({ checked });
-      }
+  useEffect(() => {
+    let notes = document.getElementsByClassName('ReactPiano__Key');
+    rainbowfyNotes(notes);
+  });
 
-      toggleMusicalTyping() {
+  const rainbowfyNotes = (notes) => {
+    const colours = [
+      'red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'
+    ];
+    let c = 0;
 
-      }
-
-    render(){
-        return(
-            <Element name='home' id="Home" className="container-fluid section">
-                <MyPiano />
-                <label id="musicalTypingSwitch">
-                    <Switch onChange={this.handleChange} checked={this.state.checked} />
-                    <p>Musical typing</p>
-                </label>
-                <Quote className="center">Best night of my life</Quote>    
-            </Element>
-        );
+    for (let i = 0; i < notes.length; i++) {
+      notes[i].id = `note-${colours[c]}`;
+      notes[i].classList.add(`note-${colours[c]}`);
+      c = c === colours.length ? 0 : c + 1;
     }
+  }
+
+
+  return(
+    <Element name='home' id="Home" className="container-fluid section">
+      <MyPiano musicalTyping={ musicalTyping } />
+        <label id="musicalTypingSwitch">
+            <Switch onChange={() => setMusicalTyping(!musicalTyping)} checked={musicalTyping} />
+            <p>Musical typing</p>
+        </label>
+      <Quote className="center">Best night of my life</Quote>
+    </Element>
+  )
 }
 
 export default Home;

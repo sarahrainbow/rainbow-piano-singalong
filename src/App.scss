@@ -165,9 +165,7 @@ p {
 
 #musicalTypingSwitch {
   text-align: left;
-}
-#musicalTypingSwitch span {
-  padding: 16px;
+  width: 100px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -186,18 +184,27 @@ p {
   }
 }
 
-.ReactPiano__Keyboard {
+.mt-5 {
   height: 300px;
 }
 
 @media only screen and (max-width: 800px) {
-.ReactPiano__Keyboard {
+.mt-5 {
   height: 200px;
   }
 }
 
 @media only screen and (min-width: 1000px) {
-  .ReactPiano__Keyboard {
+  .mt-5 {
     height: 400px;
+    width: 100%;
     }
   }
+
+$colours: red, orange, yellow, green, blue, indigo, violet;
+
+@each $colour in $colours {
+  .ReactPiano__Key--active#note-#{$colour} {
+      background: $colour;
+  }
+}
