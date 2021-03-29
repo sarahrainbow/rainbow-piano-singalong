@@ -63,10 +63,6 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.sticky-top {
   align-items: flex-end;
 }
 
-.textarea {
-  padding: 16px;
-}
-
 h1 {
   font-size: 3.5rem;
 }
@@ -150,14 +146,42 @@ p {
 }
 
 #contactEmail {
-  font-weight: 100;
+  font-weight: 200;
   font-size: 1.5em;
+  margin-right: 8px;
+}
+
+.textarea {
+  height:40px;
+  margin-left: 25%;
+  width: fit-content;
+}
+
+.email {
+  background: white;
+  padding: 9px 5px;
+  border-radius: 5px;
+  margin-left: 8px;
+}
+
+.copyButton {
+  border: none;
+  border-radius: 5px;
+  background: #f1f1f1;
+
+  &:hover {
+    background:pink;
+  }
+
+  img {
+    width: 25px;
+    // margin: 25% 0;
+  }
 }
 
 #mailIcon {
-  width: 25px;
-  margin-right: 8px;
-  margin-bottom: 4px;
+  width: 40px;
+  margin-left: 8px;
 }
 
 
