@@ -64,7 +64,9 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light.sticky-top {
 }
 
 h1 {
-  font-size: 3.5rem;
+  font-size: 4.5rem !important;
+  font-family: 'Concert One', cursive;
+  letter-spacing: 0.5rem;
 }
 
 
@@ -82,9 +84,6 @@ h1 {
   background-color: #cbecdb;
 }
 
-#Contact {
-  background-color: #fdd4e6
-}
 
 .section {
   /* min-height: 300px; */
@@ -93,7 +92,7 @@ h1 {
 
 .quote {
   background-color: whitesmoke;
-  font-weight: 100;
+  font-weight: 200;
   width: 50%;
   margin-left: 25%;
 }
@@ -112,7 +111,7 @@ h1 {
 .quoteBubble p {
   color: black;
   font-size: 1em;
-  font-weight: 100;
+  font-weight: 300;
   padding: 10px;
   position: absolute;
   top: 50%;
@@ -134,7 +133,7 @@ h1 {
 
 p {
   font-size: 1em;
-  font-weight: 100;
+  font-weight: 300;
 }
 
 .title {
@@ -144,47 +143,6 @@ p {
   width: 200px;
   margin-top: 16px;
 }
-
-#contactEmail {
-  font-weight: 200;
-  font-size: 1.5em;
-  margin-right: 8px;
-}
-
-.textarea {
-  height:40px;
-  margin-left: 25%;
-  width: fit-content;
-}
-
-.email {
-  background: white;
-  padding: 9px 5px;
-  border-radius: 5px;
-  margin-left: 8px;
-}
-
-.copyButton {
-  border: none;
-  border-radius: 5px;
-  background: #f1f1f1;
-
-  &:hover {
-    background:pink;
-  }
-
-  img {
-    width: 25px;
-    // margin: 25% 0;
-  }
-}
-
-#mailIcon {
-  width: 40px;
-  margin-left: 8px;
-}
-
-
 
 @media only screen and (max-width: 768px) {
   div.container-fluid {

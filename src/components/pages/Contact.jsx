@@ -2,9 +2,9 @@ import React from 'react';
 import TextArea from '../TextArea';
 import Quote from '../Quote';
 import { Element } from 'react-scroll'
-import TitleContact from '../../images/TitleContact.png';
 import mailIcon from '../../images/MailIcon.png';
 import copyIcon from '../../images/copy.png';
+import './Contact.scss'
 
 const Contact = () => {
   const email = "mark@thegreatrainbowpianosingalong.com";
@@ -15,7 +15,7 @@ const Contact = () => {
 
   return(
       <Element name="contact" id="Contact" className="section container-fluid">
-          <img src={TitleContact} className="title" alt="Title for contact section" />
+        <h1>CONTACT</h1>
           <TextArea>
             <img src={mailIcon} id="mailIcon" alt="mail icon"/>
             <span className='email'> 

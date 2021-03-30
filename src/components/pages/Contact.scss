@@ -1,0 +1,51 @@
+#Contact {
+  background-color: #fdd4e6
+}
+
+#contactEmail {
+  font-weight: 200;
+  font-size: 1.5em;
+  margin-right: 8px;
+}
+
+.textarea {
+  height:40px;
+  margin: auto;
+  width: fit-content;
+}
+
+.email {
+  background: white;
+  padding: 9px 5px;
+  border-radius: 5px;
+  margin-left: 8px;
+}
+
+.copyButton {
+  border: none;
+  border-radius: 5px;
+  background: #f1f1f1;
+
+  &:hover {
+    background:pink;
+  }
+
+  &:active {
+    background: cyan;
+  }
+
+  img {
+    width: 25px;
+  }
+}
+
+#mailIcon {
+  width: 40px;
+  margin-left: 8px;
+}
+
+@media only screen and (max-width: 530px) {
+  #contactEmail {
+    font-size: 1em;
+  }
+}

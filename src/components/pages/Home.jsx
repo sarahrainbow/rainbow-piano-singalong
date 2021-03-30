@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Quote from '../Quote';
 import { Element } from 'react-scroll';
 import 'react-piano/dist/styles.css';
-import './home.scss'
+import './Home.scss'
 import MyPiano from '../MyPiano.js';
 import Switch from "react-switch";
 
@@ -23,7 +23,7 @@ const Home  = () => {
     for (let i = 0; i < notes.length; i++) {
       notes[i].id = `note-${colours[c]}`;
       notes[i].classList.add(`note-${colours[c]}`);
-      c = c === colours.length ? 0 : c + 1;
+      c = c === colours.length - 1 ? 0 : c + 1;
     }
   }
 
