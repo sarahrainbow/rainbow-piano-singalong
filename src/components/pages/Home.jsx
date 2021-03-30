@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Quote from '../Quote';
 import { Element } from 'react-scroll';
 import 'react-piano/dist/styles.css';
-import './Home.scss'
+import './home.scss'
 import MyPiano from '../MyPiano.js';
 import Switch from "react-switch";
 

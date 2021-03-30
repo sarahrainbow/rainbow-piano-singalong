@@ -8,9 +8,9 @@ class Pricing extends Component {
             <Element name="pricing" className="section container-fluid" id="Pricing">
               <h1>PRICING</h1>
                 <TextArea>
-                    £300 per session (up to 3 hours) <br /> <br /> <br />
-                    This is a guide price, so please get in touch for a quote.
-                </TextArea>      
+                    <p>£300 per session (up to 3 hours)</p>
+                    <p>This is a guide price, so please get in touch for a quote.</p>
+                </TextArea>
                 <Quote>Worth every penny and so much more</Quote>
             </Element>
         );
