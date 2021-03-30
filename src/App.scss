@@ -1,3 +1,5 @@
+@import 'components/pages/default-values';
+
 .App {
   text-align: center;
 }
@@ -13,8 +15,6 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  /* background-image: url('./images/placeholderHomeBackground.jpg'); */
-  /* background-size: cover; */
 }
 
 .App-link {
@@ -35,16 +35,18 @@ html, #root, body, .App, .App>div {
   color:steelblue;
   background-image: url('./images/header.png');
   background-size: cover;
-  /* font-family: 'Concert One', cursive; */
-  font-family: 'Open Sans', sans-serif;
   z-index: 5;
+}
+
+.textarea {
+  font-family: 'Open Sans', sans-serif;
 }
 
 .navbar {
   font-size: 1em;
 }
 
-a p {
+a, p {
   font-family: 'Open Sans', sans-serif;
   color: black;
 }
@@ -86,7 +88,6 @@ h1 {
 
 
 .section {
-  /* min-height: 300px; */
   text-align: center;
 }
 
@@ -144,16 +145,7 @@ p {
   margin-top: 16px;
 }
 
-@media only screen and (max-width: 768px) {
-  div.container-fluid {
-    height: auto;
-  }
-}
-
-@media only screen and (max-width: 530px) {
-  #contactEmail {
-    font-size: 1em;
-  }
+@media only screen and (max-width: $mobile-width) {
   .bubble {
     width: 50%;
   }

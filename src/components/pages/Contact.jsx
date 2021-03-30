@@ -1,5 +1,4 @@
 import React from 'react';
-import TextArea from '../TextArea';
 import Quote from '../Quote';
 import { Element } from 'react-scroll'
 import mailIcon from '../../images/MailIcon.png';
@@ -7,7 +6,7 @@ import copyIcon from '../../images/copy.png';
 import './Contact.scss'
 
 const Contact = () => {
-  const email = "mark@thegreatrainbowpianosingalong.com";
+  const email = "mark@rainbowpianosingalong.com";
 
   const onCopy = () => {
     navigator.clipboard.writeText(email)
@@ -16,7 +15,7 @@ const Contact = () => {
   return(
       <Element name="contact" id="Contact" className="section container-fluid">
         <h1>CONTACT</h1>
-          <TextArea>
+          <div className='emailContainer'>
             <img src={mailIcon} id="mailIcon" alt="mail icon"/>
             <span className='email'> 
               <span id='contactEmail'>{email}</span>
@@ -24,7 +23,7 @@ const Contact = () => {
                 <img src={copyIcon} alt="copy to clipboard" />
               </button>
             </span>
-          </TextArea> 
+          </div> 
           <Quote>I didn’t realise I was alive before now</Quote>
       </Element>
   );

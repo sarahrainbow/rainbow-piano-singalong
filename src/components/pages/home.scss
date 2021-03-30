@@ -1,3 +1,5 @@
+@import 'default-values';
+
 #Home {
   background-color: #f2d2d5;
   padding: 0 5%;
@@ -5,12 +7,28 @@
 
 .piano {
   height: 400px;
+  max-width: 1200px;
+  margin: auto;
   width: 100%;
 }
 
-@media only screen and (max-width: 800px) {
-.piano {
-  height: 200px;
+@media only screen and (max-width: $ipad-width) {
+  .piano {
+    margin: 16px 0;
+  }
+
+  .musicalTypingSwitch {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: $mobile-width) {
+  .piano {
+    max-height: 150px;
+  }
+
+  .musicalTypingSwitch {
+    display: none;
   }
 }
 
