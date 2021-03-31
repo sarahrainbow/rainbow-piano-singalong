@@ -78,7 +78,7 @@ const ThisPiano = ({ musicalTyping }) => {
     pianoElement.addEventListener("touchmove", absorbEvent);
     pianoElement.addEventListener("touchcancel", absorbEvent);
   }
-  
+
   overrideSilentSwitchMobile();
 
   const BasicPiano = () => {
@@ -97,7 +97,7 @@ const ThisPiano = ({ musicalTyping }) => {
             disabled={isLoading}
             keyboardShortcuts={musicalTyping === true ? keyboardShortcuts : []}
             onPlayNoteInput={() => {
-              if (!isLoading) disableSelect();
+              disableSelect();
             }}
           />
         )}
