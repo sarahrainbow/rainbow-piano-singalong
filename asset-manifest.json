@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/rainbow-piano-singalong/static/css/main.61ec4bd8.chunk.css",
-    "main.js": "/rainbow-piano-singalong/static/js/main.4a6a54e6.chunk.js",
-    "main.js.map": "/rainbow-piano-singalong/static/js/main.4a6a54e6.chunk.js.map",
+    "main.js": "/rainbow-piano-singalong/static/js/main.bd5566ab.chunk.js",
+    "main.js.map": "/rainbow-piano-singalong/static/js/main.bd5566ab.chunk.js.map",
     "runtime-main.js": "/rainbow-piano-singalong/static/js/runtime-main.6bd8ff44.js",
     "runtime-main.js.map": "/rainbow-piano-singalong/static/js/runtime-main.6bd8ff44.js.map",
     "static/css/2.582d7933.chunk.css": "/rainbow-piano-singalong/static/css/2.582d7933.chunk.css",
     "static/js/2.7d91a4ae.chunk.js": "/rainbow-piano-singalong/static/js/2.7d91a4ae.chunk.js",
     "static/js/2.7d91a4ae.chunk.js.map": "/rainbow-piano-singalong/static/js/2.7d91a4ae.chunk.js.map",
     "index.html": "/rainbow-piano-singalong/index.html",
-    "precache-manifest.263ad0fad4ede70becb6166ff9de99cf.js": "/rainbow-piano-singalong/precache-manifest.263ad0fad4ede70becb6166ff9de99cf.js",
+    "precache-manifest.747187ad8f82d8ce2e61a15a09b8df2a.js": "/rainbow-piano-singalong/precache-manifest.747187ad8f82d8ce2e61a15a09b8df2a.js",
     "service-worker.js": "/rainbow-piano-singalong/service-worker.js",
     "static/css/2.582d7933.chunk.css.map": "/rainbow-piano-singalong/static/css/2.582d7933.chunk.css.map",
     "static/css/main.61ec4bd8.chunk.css.map": "/rainbow-piano-singalong/static/css/main.61ec4bd8.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.582d7933.chunk.css",
     "static/js/2.7d91a4ae.chunk.js",
     "static/css/main.61ec4bd8.chunk.css",
-    "static/js/main.4a6a54e6.chunk.js"
+    "static/js/main.bd5566ab.chunk.js"
   ]
 }
