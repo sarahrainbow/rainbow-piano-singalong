@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Piano, KeyboardShortcuts, MidiNumbers } from 'react-piano';
 import 'react-piano/dist/styles.css';
 import SoundfontProvider from './SoundfontProvider';
@@ -67,6 +67,18 @@ const ThisPiano = ({ musicalTyping }) => {
     }
   }
 
+  const absorbEvent = (event) => {
+    event.returnValue = false;
+  }
+
+  const disableSelect = () => {
+    let pianoElement = document.getElementsByClassName("piano")[0];
+    pianoElement.addEventListener("touchstart", absorbEvent);
+    pianoElement.addEventListener("touchend", absorbEvent);
+    pianoElement.addEventListener("touchmove", absorbEvent);
+    pianoElement.addEventListener("touchcancel", absorbEvent);
+  }
+
   const BasicPiano = () => {
     return (
       <SoundfontProvider
@@ -75,14 +87,17 @@ const ThisPiano = ({ musicalTyping }) => {
         hostname={soundfontHostname}
         render={({ isLoading, playNote, stopNote }) => (
           <Piano
+            id="piano"
             className="piano"
             noteRange={noteRange}
             playNote={playNote}
             stopNote={stopNote}
             disabled={isLoading}
             keyboardShortcuts={musicalTyping === true ? keyboardShortcuts : []}
-            onPlayNoteInput={() => overrideSilentSwitchMobile()}
-            keyWidthToHeight={16}
+            onPlayNoteInput={() => {
+              overrideSilentSwitchMobile();
+              disableSelect();
+            }}
           />
         )}
       />
