@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/rainbow-piano-singalong/precache-manifest.dea41bfde63b9b89fdaa6400d26ff9b9.js"
+  "/rainbow-piano-singalong/precache-manifest.5316c2e681c430e91382aab4ee82af81.js"
 );
 
 self.addEventListener('message', (event) => {
