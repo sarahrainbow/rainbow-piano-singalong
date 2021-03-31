@@ -28,7 +28,7 @@ const ThisPiano = ({ musicalTyping }) => {
 
     // Unlock WebAudio - create short silent buffer and play it
     // This will allow us to play web audio at any time in the app
-    const context = new AudioContext();
+    const context = audioContext;
     const buffer = context.createBuffer(1, 1, 22050); // 1/10th of a second of silence
     const source = context.createBufferSource();
     source.buffer = buffer;
@@ -82,6 +82,7 @@ const ThisPiano = ({ musicalTyping }) => {
             disabled={isLoading}
             keyboardShortcuts={musicalTyping === true ? keyboardShortcuts : []}
             onPlayNoteInput={() => overrideSilentSwitchMobile()}
+            keyWidthToHeight={16}
           />
         )}
       />
